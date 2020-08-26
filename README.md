@@ -85,8 +85,6 @@ Misc:
 ---
 ## Support status:
 
-- MacOS 10.13 (High Sierra) - Clover/Deprecated (Will not receive future updates)
-
 - MacOS 10.14 (Mojave) - OpenCore/Old Stable
 
 - MacOS 10.15 (Catalina) - Current supported version
