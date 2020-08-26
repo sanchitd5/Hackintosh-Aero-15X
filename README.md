@@ -1,18 +1,18 @@
 # Hackintosh-Aero-15X
-Hackintosh for Gigabyte Aero 15X V8
+Hackintosh for Gigabyte Aero 15X V8 with Intel Wifi Cards
 Tested and working on macOS High Sierra, Mojave and Catalina
 
 Please see the following for more details:
 
-https://www.tonymacx86.com/threads/guide-aero-15x-v8-mojave-catalina.287164/
+original credits : https://www.tonymacx86.com/threads/guide-aero-15x-v8-mojave-catalina.287164/
 
 ## Specs
 
 ```
 - Processor: i7-8750H
 - Memory: 32GB 2667 MHz DDR4 (Upgraded, originally was 16GB)
-- Panel: LCD FHD 144Hz 1920x1080 IPS
-- Graphics: Intel UHD Graphics 630 + NVIDIA GeForce GTX 1070 GDDR5 8GB
+- Panel: LCD UHD 60Hz IPS
+- Graphics: Intel UHD Graphics 630 + NVIDIA GeForce GTX 1070 GDDR5 8GB (Disabled)
 
 I/O | Ports:
 
@@ -30,8 +30,7 @@ Misc:
 - HD Camera
 ```
 ### Notes:
-- Original Intel WiFi/Bluetooth was replaced with a macOS compatible one. (Used here: **Broadcom BCM94352Z**. But the Dell DW1830 should work better if you are dual-booting with Windows)
-- Intel WiFi/Bluetooth card can be made usable with [itlwm](https://github.com/OpenIntelWireless/itlwm) project 
+
 - EFI based
 
 ## How to use this repository:
@@ -42,10 +41,6 @@ Misc:
 - EFI/OC: All necessary OpenCore files (with kexts, configs, patches, etc.)
 - EFI/Boot: Has other necessary boot files
 
-### For *Clover* users [Deprecated]
-
-`/Clover/` folder has all the necessary files for each version of Hackintosh (e.g. 10.13.6 - High Sierra, 10.14.6 - Mojave, etc..). Then, inside each folder:
-- EFI/CLOVER: All necessary Clover files (with kexts, configs, patches, etc.)
 
 ## Working
 
@@ -98,6 +93,8 @@ Misc:
 
 
 ## Special thanks to:
+
+* [zacmks] (https://github.com/zacmks/Hackintosh-Aero-15X) for the original guide
 
 * [RehabMan](https://github.com/RehabMan) for his great guides, tools, tutorials, DSDTs, kexts and contribution to the Hackintosh community
 
