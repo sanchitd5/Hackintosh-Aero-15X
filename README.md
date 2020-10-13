@@ -1,6 +1,6 @@
 # Hackintosh-Aero-15X
 Hackintosh for Gigabyte Aero 15X V8 with Intel Wifi Cards
-Tested and working on macOS High Sierra, Mojave and Catalina
+Tested and working on macOS Catalina
 
 Please see the following for more details:
 
@@ -10,7 +10,7 @@ original credits : https://www.tonymacx86.com/threads/guide-aero-15x-v8-mojave-c
 
 ```
 - Processor: i7-8750H
-- Memory: 32GB 2667 MHz DDR4 (Upgraded, originally was 16GB)
+- Memory: 32GB 2400 MHz DDR4 (Upgraded, originally was 16GB)
 - Panel: LCD UHD 60Hz IPS
 - Graphics: Intel UHD Graphics 630 + NVIDIA GeForce GTX 1070 GDDR5 8GB (Disabled)
 
@@ -40,6 +40,10 @@ Misc:
 `/OpenCore/` has a general config for OpenCore. Consider the current supported macOS version of this repository
 - EFI/OC: All necessary OpenCore files (with kexts, configs, patches, etc.)
 - EFI/Boot: Has other necessary boot files
+
+### Use HeliPort for using Intel based Wifi
+
+[Heliport](https://github.com/OpenIntelWireless/HeliPort)
 
 
 ## Working
