@@ -1,5 +1,5 @@
 # Hackintosh-Aero-15X
-Hackintosh for Gigabyte Aero 15X V8 with Intel Wifi Cards
+Hackintosh for Gigabyte Aero 15X V8 with Intel Wifi Card
 Tested and working on macOS Catalina
 
 Please see the following for more details:
@@ -13,6 +13,7 @@ original credits : https://www.tonymacx86.com/threads/guide-aero-15x-v8-mojave-c
 - Memory: 32GB 2400 MHz DDR4 (Upgraded, originally was 16GB)
 - Panel: LCD UHD 60Hz IPS
 - Graphics: Intel UHD Graphics 630 + NVIDIA GeForce GTX 1070 GDDR5 8GB (Disabled)
+- Wifi + Bluetooth: Intel Wireless-AC 9260
 
 I/O | Ports:
 
@@ -35,37 +36,30 @@ Misc:
 
 ## How to use this repository:
 
-### For *OpenCore* users
-
 `/OpenCore/` has a general config for OpenCore. Consider the current supported macOS version of this repository
 - EFI/OC: All necessary OpenCore files (with kexts, configs, patches, etc.)
 - EFI/Boot: Has other necessary boot files
-
-### Use HeliPort for using Intel based Wifi
-
-[Heliport](https://github.com/OpenIntelWireless/HeliPort)
 
 
 ## Working
 
 **USB Based Devices**
-- [x] All USB ports (2.0 + 3.0)
-- [x] Card Reader (3.0)
-- [x] HD Camera (2.0)
-- [x] Keyboard (2.0)
-- [x] Bluetooth (Internal 2.0)
+- [✓] All USB ports (2.0 + 3.0)
+- [✓] Card Reader (3.0)
+- [✓] HD Camera (2.0)
+- [✓] Keyboard (2.0)
 
 **Network**
-- [x] Ethernet card
-- [x] WiFi + Bluetooth
+- [✓] Ethernet card
+- [✓] Intel WiFi + Bluetooth
 
 **Power**
-- [x] CPU power management
-- [x] Battery indicator
-- [x] USB PM
-- [x] Shutdown/*Sleep/Restart
-- [x] Saving/Restoring screen brightness on reboot
-- [x] **Disable eGPU to save power
+- [✓] CPU power management
+- [✓] Battery indicator
+- [✓] USB PM
+- [✓] Shutdown/*Sleep/Restart
+- [✓] Saving/Restoring screen brightness on reboot
+- [✓] **Disable eGPU to save power
 
 *\* For Sleep to work, add **-wegnoegpu** to your boot-args (Mojave/Catalina+). However, this makes USB-C external monitors undetectable after boot*
 
@@ -74,29 +68,27 @@ Misc:
 **-wegnoegpu** can be used in conjunction with **SSDT-Disable-DGPU.aml**
 
 **Graphics**
-- [x] Intel graphics card
-- [x] HDMI (**High Sierra only** with Nvidia GC)
+- [✓] Intel graphics card
 
 **Misc**
-- [x] Sound (internal speakers + mic jack on/off)
-- [x] Touchpad + Gestures
-- [x] Thunderbolt hotplug (see: [POSTINSTALL](./POSTINSTAL.md))
+- [✓] Sound (internal speakers + mic jack on/off)
+- [✓] Touchpad + Gestures
+- [✓] Thunderbolt hotplug (see: [POSTINSTALL](./POSTINSTAL.md))
 
 ## Not working/Issues
 
-- [ ] Nvidia Graphics card (Only High Sierra with WebDrivers)
+- [-] Audio thorugh Thunderbolt - HDMI (Works Sometimes)
+- [ ] HDMI (Apple removed support for Nvidia after High Sierra)
 
 ---
 ## Support status:
-
-- MacOS 10.14 (Mojave) - OpenCore/Old Stable
 
 - MacOS 10.15 (Catalina) - Current supported version
 
 
 ## Special thanks to:
 
-* [zacmks] (https://github.com/zacmks/Hackintosh-Aero-15X) for the original guide
+* [zacmks](https://github.com/zacmks/Hackintosh-Aero-15X) for the original guide
 
 * [RehabMan](https://github.com/RehabMan) for his great guides, tools, tutorials, DSDTs, kexts and contribution to the Hackintosh community
 
