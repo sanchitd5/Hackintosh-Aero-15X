@@ -83,7 +83,8 @@ Misc:
 ---
 ## Support status:
 
-- MacOS 10.15 (Catalina) - Current supported version
+- MacOS 11.x (Bug Sur) - Current supported version
+- MacOS 10.15 (Catalina) - download [here](https://github.com/sanchitd5/Hackintosh-Aero-15X/tree/eb742bd8d6fbadda77beef71243e1018ca31535b)
 
 
 ## Special thanks to:
