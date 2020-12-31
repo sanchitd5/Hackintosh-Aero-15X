@@ -7,7 +7,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleExecutable</key>
-	<string>NVMeFix</string>
+	<string>NVMeFixBigSur</string>
 	<key>CFBundleIdentifier</key>
 	<string>org.acidanthera.NVMeFix</string>
 	<key>CFBundleInfoDictionaryVersion</key>
