@@ -1,6 +1,6 @@
 # Hackintosh-Aero-15X
 Hackintosh for Gigabyte Aero 15X V8 with Intel Wifi Card
-Tested and working on macOS Catalina
+Tested and working on macOS Big Sur
 
 Please see the following for more details:
 
